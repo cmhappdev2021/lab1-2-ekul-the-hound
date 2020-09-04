@@ -1,35 +1,40 @@
 // Declare a constant called friends to represent the number of friends you have on social media. Give it a value between 50 and 1000. Print out the value by referencing your constant.
-let friends = 1000
+var friends = 1000
 print(friends)
 
 // Now assume you go through and remove friends that aren't active on social media. Attempt to update your friends constant to a lower number than it currently is. Observe what happens and then move to the next step.
-
+friends = 900
+print(friends)
 
 // Does the above code compile? Why not? Print your explanation to the console using the print function. Go back and delete your line of code that updates the friends constant to a lower number so that the playground will compile properly.
-
+print("It did not work because it was a constant and not a variable.")
 
 // Note: These exercises reinforce Swift concepts in the context of a fitness tracking app.
 // Your fitness tracking app needs to know goal number of steps per day. Create a constant goalSteps and set it to 10000.
 
-
+let goalSteps = 10000
 // Use two print functions to print two separate lines to the console. The first line should say "Your step goal for the day is:", and the second line should print the value of goalSteps by referencing your constant.
-
+print("Your step goal for today is")
+print(goalSteps)
 
 // Declare a variable schooling and set it to the number of years of school that you have completed. Print schooling to the console.
-
+var schooling = 10
+print(schooling)
 
 // Now imagine you just completed an additional year of school, and update the schooling variable accordingly. Print schooling to the console.
-
+schooling = 11
+print(schooling)
 
 // Does the above code compile? Why is this different than trying to update a constant? Print your explanation to the console using the print function.
-
-
+print("It does compile. It is different from trying to update a constant because it actually will update instead of just saying error")
 // Create a variable called steps that will keep track of the number of steps you take throughout the day. Set its initial value to 0 to represent the step count first thing in the morning. Print steps to the console.
-
+var steps = 0
+print(steps)
 
 // Now assume the tracker has been keeping track of steps all morning, and you want to show the user the latest step count. Update steps to be 2000. Print steps to the console. Then print "Good job! You're well on your way to your daily goal."
-
-
+steps = 2000
+print(steps)
+print("Good job! You're well on your way to your daily goal.")
 /* Imagine you're creating a simple photo sharing app. You want to keep track of the following metrics for each post:
 
 Number of likes: the number of likes that a photo has received
@@ -40,7 +45,21 @@ Day created: The day of the month the post was created
 
 For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. Be sure to use proper naming conventions.
 */
-
+var likes = 100
+var comments = 10
+let year = 2020
+let month = 9
+let day = 3
+print("likes")
+print(likes)
+print("comments")
+print(comments)
+print("year")
+print(year)
+print("month")
+print(month)
+print("day")
+print(day)
 
 /* There are all sorts of things that a fitness tracking app needs to keep track of in order to display the right information to the user. Similar to the last exercise, declare either a constant or a variable for each of the following items, and assign each a sensible value. Be sure to use proper naming conventions.
 
