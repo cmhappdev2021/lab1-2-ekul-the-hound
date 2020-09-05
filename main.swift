@@ -12,7 +12,8 @@ print("It did not work because it was a constant and not a variable.")
 // Note: These exercises reinforce Swift concepts in the context of a fitness tracking app.
 // Your fitness tracking app needs to know goal number of steps per day. Create a constant goalSteps and set it to 10000.
 
-let goalSteps = 10000
+// I redeclared it here because I couldn't figure it out and YouTube/google didn't help.
+let goalSteps = 11111
 // Use two print functions to print two separate lines to the console. The first line should say "Your step goal for the day is:", and the second line should print the value of goalSteps by referencing your constant.
 print("Your step goal for today is")
 print(goalSteps)
@@ -69,32 +70,47 @@ Number of steps taken today: The number of steps that a user has taken today
 Goal number of steps: The user's goal for number of steps to take each day
 Average heart rate: The user's average heart rate over the last 24 hours
 */
+let name = 15
+print("name doesn't change")
+var age = 18
+print("you can get older")
+steps = 3000
+print("your steps that you take changes")
+
+print("the goal for you to reach doesn't change")
+var avheartrate = 160
+print("your hear rate can change")
 
 // Now go back and add a line after each constant or variable declaration. On those lines, print a statement explaining why you chose to declare the piece of information as a constant or variable.
 
 
 // Type Safety
 // Declare two variables, one called firstDecimal and one called secondDecimal. Both should have decimal values. Look at both of their types by holding Option and clicking on the variable name.
-
+var firstDecimal = 1.1
+var secondDecimal = 1.5
 
 // Declare a variable called trueOrFalse and give it a boolean value. Try to assign it to firstDecimal like so: firstDecimal = trueOrFalse. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
 
+print("no it does not compile because true or false means it would be constant, because something can be true and not be false at the same time in coding.")
 
 // Declare a variable and give it a string value. Then try to assign it to firstDecimal. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
 
+var string = firstDecimal
+print("It does compile")
 
-// Finally, declare a variable with a whole number value. Then try to assign it to firstDecimal. Why won't this compile even though both variables are numbers? Print a statement to the console explaining why not, and remove the line of code that will not compile.
-
+// Finally, declare a variable with a whole number value. Then try to assign it to firstDecimal . Why won't this compile even though both variables are numbers? Print a statement to the console explaining why not, and remove the line of code that will not compile.
+print("because they ahve to have decimal values")
 
 // You have declared a number of constants and variables to keep track of fitness information. Declare one more variable with a boolean value called hasMetStepGoal.
-
+var hasMetStepGoal = true
 
 // When you declared a constant for goal number of steps and a variable for current step count, you likely assigned each a value in the thousands. This can be difficult to read. Redeclare this constant and variable and, when assigning each a value in the thousands, format the number so that it is more readable.
 
+steps = 1111
 
 // Declare a variable called name of type String, but do not give it a value. Print name to the console. Does the code compile? Remove any code that will not compile.
-
-
+var name-of-type-String
+print("no, it would not because it didn't allow spaces, _, or -")
 // Now assign a value to name, and print it to the console.
 
 
