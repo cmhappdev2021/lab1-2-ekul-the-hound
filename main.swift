@@ -109,20 +109,22 @@ var hasMetStepGoal = true
 steps = 1111
 
 // Declare a variable called name of type String, but do not give it a value. Print name to the console. Does the code compile? Remove any code that will not compile.
-var name-of-type-String
+
 print("no, it would not because it didn't allow spaces, _, or -")
 // Now assign a value to name, and print it to the console.
+var Name = 10
 
-
+print(Name)
 // Declare a variable called distanceTraveled and set it to 0. Do not give it an explicit type.
+var distanceTraveled: Double = 0
 
 
 // Now assign a value of 54.3 to distanceTraveled. Does the code compile? Go back and set an explicit type on distanceTraveled so the code will compile.
-
+distanceTraveled = 54.3
 
 // You decide that your fitness tracking app should show the user what percentage of his/her goal has been achieved so far today. Declare a variable called percentCompleted and set it to 0. Do not explicity assign it a type.
-
+var percentCompleted: Double = 0
 
 // Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. This means he/she is 34.67% of the way to his/her goal. Assign 34.67 to percentCompleted. Does the code compile? Go back and explicity assign a type to percentCompleted that will allow the code to compile.
 
-
+percentCompleted = 34.67
